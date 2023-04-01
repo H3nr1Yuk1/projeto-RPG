@@ -3,3 +3,34 @@
     display: flex; 
     flex-direction: row;
 }
+
+.estiloMenu {
+    padding: 2px;
+    background-color: rgb(193, 193, 193);
+}
+
+.imgMenu {
+    padding-right: 65px;
+    height: 100px; 
+    width: 100px;
+}
+
+.darkness {
+    font-family: Nightside Demo;
+}
+
+.contratados {
+    font-family: Bauhaus Md BT;
+}
+
+.renascer {
+    font-family: Girassol;
+}
+
+.status {
+    color: gray;
+}
+
+.styleless{
+    list-style-type: none;
+}
