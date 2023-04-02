@@ -1,30 +1,117 @@
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.site > *{
+    position:relative;
+}
+
 .menu {
     list-style: none; 
     display: flex; 
     flex-direction: row;
 }
 
+.menu > * {
+    padding-right: 60px;
+}
+
 .estiloMenu {
-    padding: 2px;
-    background-color: rgb(193, 193, 193);
+    padding: 0.5px;
+    background-color: rgba(0, 0, 0, 0.75); 
+    border: 4px outset white;
+    width:45rem;
+    
+}
+
+.imagem {
+    position: relative;
+}
+
+.imagem img {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.imgTxt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    color: white;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.imgTxt_ {
+    height: 100px; 
+    width: 100px;
+}
+
+.imagem:hover .imgTxt {
+    visibility: visible;
+    opacity: 1;
+}
+
+.imagem:hover img.imgMenu {
+    opacity: 0.5;
 }
 
 .imgMenu {
-    padding-right: 65px;
     height: 100px; 
     width: 100px;
 }
 
 .darkness {
+    font-size: 30px;
     font-family: Nightside Demo;
 }
 
+.dDarkness {
+    background-color: rgba(236, 236, 236, 0.75);
+    border: 4px outset red;
+    width:25rem;
+}
+
+.dDarkness > *{
+    padding-left: 15px;
+}
+
 .contratados {
+    font-size: 30px;
     font-family: Bauhaus Md BT;
 }
 
+.dContratados {
+    background-color: rgba(236, 236, 236, 0.75);
+    border: 4px outset gray;
+    width:25rem;
+}
+
+.dContratados > * {
+    padding-left: 15px;
+}
+
 .renascer {
+    font-size: 30px;
     font-family: Girassol;
+}
+
+.dRenascer {
+    background-color: rgba(236, 236, 236, 0.75);
+    border: 4px outset gold;
+    width:25rem;
+}
+
+.dRenascer > * {
+    padding-left: 15px;
 }
 
 .status {
@@ -33,4 +120,16 @@
 
 .styleless{
     list-style-type: none;
+}
+
+.styleless li {
+    font-style: italic;
+}
+
+.styleless abbr {
+    font-style: normal;
+}
+
+.styleless li li {
+    font-size: 17px;
 }
