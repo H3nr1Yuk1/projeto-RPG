@@ -6,8 +6,13 @@
     min-height: 100%;
 }
 
+.site {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(99, 99, 99));
+    background-size: 100rem 100rem;
+}
+
 .site > *{
-    position:relative;
+    position: relative;
 }
 
 .menu {
