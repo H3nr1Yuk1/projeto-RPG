@@ -81,6 +81,10 @@
     padding-left: 15px;
 }
 
+.dDarkness#pgD {
+    width: 35rem;
+}
+
 .contratados {
     font-size: 30px;
     font-family: Bauhaus Md BT;
@@ -129,4 +133,8 @@
 
 .styleless li li {
     font-size: 17px;
+}
+
+.textoI {
+    font-style: italic;
 }
